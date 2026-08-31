@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memória e Cultura Afro-Brasileira | Museu Digital</title>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    
+    <style>
+        .bg-custom-dark {
+            background-color: #2c1d11; /* Tom amadeirado/terroso valorizando a identidade visual */
+        }
+        .carousel-item img {
+            height: 400px;
+            object-fit: cover;
+        }
+        .card-img-top {
+            height: 220px;
+            object-fit: cover;
+        }
+        footer {
+            background-color: #1a100a;
+            color: #d9c5b2;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-custom-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand font-weight-bold" href="#">Museu Memória Afro</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active"><a class="nav-link" href="#inicio">Início</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#sobre">Lei 10.639/03</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#acervo">Acervo Digital</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header id="inicio">
+        <div id="carouselDestaques" class="carousel slide" data-ride="carousel" data-interval="5000">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselDestaques" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselDestaques" data-slide-to="1"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=1200&q=80" class="d-block w-100 img-fluid" alt="Preservação da Memória">
+                    <div class="carousel-caption d-none d-md-block bg-dark-50 p-3 rounded">
+                        <h5>Patrimonialização Digital</h5>
+                        <p>Preservando a história, registros audiovisuais e a memória da diáspora africana.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://images.unsplash.com/photo-1532619675605-1ede6c2ed2b0?auto=format&fit=crop&w=1200&q=80" class="d-block w-100 img-fluid" alt="Educação e Cultura">
+                    <div class="carousel-caption d-none d-md-block bg-dark-50 p-3 rounded">
+                        <h5>Lei Federal nº 10.639/2003</h5>
+                        <p>Fortalecendo o ensino da história e cultura afro-brasileira nas escolas.</p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselDestaques" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#carouselDestaques" role="button" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+    </header>
+
+    <section id="sobre" class="py-5 bg-light">
+        <div class="container">
+            <div class="row text-center mb-4">
+                <div class="col-md-10 offset-md-1">
+                    <h2 class="display-4 font-weight-bold">A Importância da Memória Digital</h2>
+                    <p class="lead text-muted">
+                        A inclusão da história afro-brasileira no currículo escolar exige acesso a acervos documentais, fotográficos e sonoros de qualidade. O museu digital democratiza a salvaguarda desse patrimônio intangível.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <div class="p-3 bg-white shadow-sm rounded border">
+                        <h4>Educação Afro-brasileira</h4>
+                        <p>Cumprimento das diretrizes da Lei 10.639/03, promovendo uma educação antirracista e inclusiva.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="p-3 bg-white shadow-sm rounded border">
+                        <h4>Acervo Audiovisual</h4>
+                        <p>Digitalização de documentos históricos, tradições orais, fotografias e celebrações populares.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="p-3 bg-white shadow-sm rounded border">
+                        <h4>Acesso Universal</h4>
+                        <p>Superação de barreiras geográficas por meio de coleções e exibições virtuais abertas ao público.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="acervo" class="py-5">
+        <div class="container">
+            <h2 class="text-center font-weight-bold mb-5">Coleções em Destaque</h2>
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=600&q=80" class="card-img-top" alt="Registros Históricos">
+                        <div class="card-body">
+                            <h5 class="card-title">Documentos & Manuscritos</h5>
+                            <p class="card-text">Registros cartoriais, jornais da imprensa negra e arquivos da memória social.</p>
+                        </div>
+                        <div class="card-footer bg-white border-top-0">
+                            <a href="#" class="btn btn-outline-dark btn-block">Explorar Coleção</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=600&q=80" class="card-img-top" alt="Festas e Religiosidade">
+                        <div class="card-body">
+                            <h5 class="card-title">Tradição Oral e Música</h5>
+                            <p class="card-text">Registros sonoros de ritmos, cânticos e narrativas dos mestres e mestras da cultura.</p>
+                        </div>
+                        <div class="card-footer bg-white border-top-0">
+                            <a href="#" class="btn btn-outline-dark btn-block">Ouvir Registros</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="https://images.unsplash.com/photo-1582555172866-f73bb12a2ab3?auto=format&fit=crop&w=600&q=80" class="card-img-top" alt="Arte e Artefatos">
+                        <div class="card-body">
+                            <h5 class="card-title">Cultura Material & Arte</h5>
+                            <p class="card-text">Esculturas, vestimentas e ferramentas que representam a resistência e estética afro-descendente.</p>
+                        </div>
+                        <div class="card-footer bg-white border-top-0">
+                            <a href="#" class="btn btn-outline-dark btn-block">Ver Galeria</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contato" class="py-4 text-center">
+        <div class="container">
+            <p class="mb-1">Museu Digital da Memória Africana e Afro-Brasileira</p>
+            <small class="text-muted">Projeto acadêmico desenvolvido com Bootstrap em cumprimento à Lei nº 10.639/2003.</small>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
