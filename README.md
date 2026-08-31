@@ -6,6 +6,14 @@ Projeto acadêmico focado na preservação da memória digital, valorização da
 
 ---
 
+## 🎓 Contexto Acadêmico
+
+* **Disciplina:** Desenvolvimento para Internet I
+* **Docente:** Profª. Mestre Adriana da Silva Belon
+* **Projeto:** Desenvolvimento de portal web com Bootstrap, HTML5, CSS3 e JavaScript.
+
+---
+
 ## 📌 Sobre o Projeto
 
 Este portal web visa democratizar o acesso a acervos fotográficos, sonoros e documentais da cultura afro-brasileira. A proposta é inspirada em iniciativas de patrimonialização e salvaguarda da memória digital (como o acervo do Prof. Livio Sansone), oferecendo um ambiente dinâmico para estudantes, educadores e pesquisadores.
@@ -24,7 +32,7 @@ Este portal web visa democratizar o acesso a acervos fotográficos, sonoros e do
 * **HTML5:** Estruturação semântica do conteúdo.
 * **CSS3 Customizado:** Estilização de temas visuais e ajustes finos de layout (`css/style.css`).
 * **Bootstrap (v4/v5):** Framework principal para responsividade, sistema de grid, carrossel e cards.
-* **JavaScript / jQuery:** Interatividade de componentes e manipulatedores de eventos (`js/script.js`).
+* **JavaScript / jQuery:** Interatividade de componentes e manipuladores de eventos (`js/script.js`).
 
 ---
 
